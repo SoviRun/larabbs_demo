@@ -2,7 +2,8 @@
     <div class="container">
 
         <a href="{{ url('/') }}">Gene_LaraBBS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -13,8 +14,8 @@
             </ul>
             {{--right--}}
             <ul class="navbar-nav navbar-right">
-                <li class="nav-item"><a href="#" class="nav-link">登录</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">注册</a></li>
+                <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">登录</a></li>
+                <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">注册</a></li>
             </ul>
         </div>
     </div>
